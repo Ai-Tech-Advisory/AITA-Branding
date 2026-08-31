@@ -23,7 +23,7 @@
 **Company Name:** Ai Tech Advisory  
 **Website:** [aitechadvisory.com](https://www.aitechadvisory.com)  
 **Founded:** 2025  
-**Founders:** Johann Nogueira & Walt Bayliss
+**Founder:** Johann Nogueira
 
 ### Mission
 Ai Tech Advisory enables businesses to empower their staff and multiply their effectiveness using AI — department by department, creating AI co-pilots at every level with a centralised reporting system to streamline business efficiency.
@@ -222,6 +222,21 @@ font-family: 'Archivo Black', sans-serif;
 | Body / Bullets | Space Grotesk | Regular | 18–22pt | Silver Gray |
 | Tagline / Callout | Archivo Black | Black | 28–40pt | Action Amber |
 | Caption / Source | Space Grotesk | Regular | 10–12pt | Silver Gray |
+
+---
+
+### Cross-Medium Typography Delivery Rule
+
+> **Use this rule to prevent font drift.** The font named in a design is not enough; the production medium must reliably load it. Do not mix a page-level web-font import into an existing presentation suite without an approved deck-wide migration.
+
+| Medium | Heading and label font | Body font | Implementation rule |
+|---|---|---|---|
+| **Website and web application** | Space Grotesk, 700 | Plus Jakarta Sans, 400–600 | Load both families once in the site’s global stylesheet or document head. Never load a competing font inside one component. |
+| **Print-ready documents and editable collateral** | Space Grotesk, 700 | Space Grotesk, 400–500 | Embed or package the typeface before final export. Use Archivo Black only for the approved “Become Future Ready” tagline. |
+| **Existing HTML workshop slide suites** | Arial, Helvetica, sans-serif | Arial, Helvetica, sans-serif | Preserve the established system-font baseline until the entire suite is deliberately migrated and visually approved. Do not use per-slide Google Font imports. |
+| **New presentation suite, only after approved migration** | Space Grotesk, 700 | Space Grotesk, 400–500 | Add one shared, verified font-loading method before editing any slide pages. Do not mix this profile with the existing system-font suite. |
+
+**Owner location.** This file, `AITA-Branding/BRAND_GUIDE.md`, is the repository-level source of truth. The operational instructions in the `aita-branding` skill must mirror this table. Update both in the same change whenever a typography decision is approved.
 
 ---
 
