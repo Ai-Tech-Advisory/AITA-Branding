@@ -33,7 +33,7 @@
 | Brand Colour | Brand Indigo `#6366F1` |
 | Accent | Action Amber `#F59E0B` |
 | Badge Gradient | `#6366F1` → `#8B5CF6` |
-| Primary Font | Space Grotesk |
+| Primary Font | Noto Sans |
 | Accent Font | Archivo Black (tagline only) |
 
 ## Usage
