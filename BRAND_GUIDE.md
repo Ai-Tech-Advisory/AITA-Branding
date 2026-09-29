@@ -159,23 +159,23 @@ This gradient is used **exclusively** for the AiTA badge and primary brand graph
 
 ## 4. Typography
 
-### Primary Typeface: Space Grotesk
+### Primary Typeface: Noto Sans
 
-**Source:** [Google Fonts — Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)  
+**Source:** [Google Fonts — Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans)  
 **License:** SIL Open Font License 1.1 (free for commercial use)
 
-Space Grotesk is the brand's primary typeface for all headings, wordmarks, UI labels, and body copy. It carries the brand's modern, technical, yet human character.
+Noto Sans is the brand's primary typeface for all headings, wordmarks, UI labels, and body copy. Its clean, highly legible forms and broad language coverage keep the brand modern, technical, and accessible.
 
 | Weight | Use Case |
 |---|---|
 | **Bold (700)** | Headlines, the "Ai" portion of the wordmark, slide titles |
-| **Medium (500)** | Subheadings, card titles, navigation labels |
+| **SemiBold (600)** | Secondary headings: subheadings, card titles, navigation labels |
 | **Regular (400)** | Body copy, descriptions, captions |
 
 **CSS import:**
 ```css
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
-font-family: 'Space Grotesk', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap');
+font-family: 'Noto Sans', sans-serif;
 ```
 
 ---
@@ -203,13 +203,13 @@ font-family: 'Archivo Black', sans-serif;
 
 | Element | Font | Weight | Size | Colour |
 |---|---|---|---|---|
-| Page Title / Hero | Space Grotesk | Bold | 56–72px | Pure White |
-| Section Heading | Space Grotesk | Bold | 36–48px | Pure White |
-| Subheading | Space Grotesk | Medium | 24–32px | Pure White or Silver Gray |
-| Body Copy | Space Grotesk | Regular | 16–18px | Silver Gray |
+| Page Title / Hero | Noto Sans | Bold | 56–72px | Pure White |
+| Section Heading | Noto Sans | Bold | 36–48px | Pure White |
+| Subheading | Noto Sans | SemiBold | 24–32px | Pure White or Silver Gray |
+| Body Copy | Noto Sans | Regular | 16–18px | Silver Gray |
 | Tagline | Archivo Black | Black | 24–48px | Action Amber |
-| Caption / Label | Space Grotesk | Regular | 12–14px | Silver Gray |
-| Button / CTA | Space Grotesk | Bold | 14–16px | Deep Navy on Amber, or White on Indigo |
+| Caption / Label | Noto Sans | Regular | 12–14px | Silver Gray |
+| Button / CTA | Noto Sans | Bold | 14–16px | Deep Navy on Amber, or White on Indigo |
 
 ---
 
@@ -217,11 +217,11 @@ font-family: 'Archivo Black', sans-serif;
 
 | Element | Font | Weight | Size | Colour |
 |---|---|---|---|---|
-| Slide Title | Space Grotesk | Bold | 40–56pt | Pure White |
-| Slide Subtitle | Space Grotesk | Medium | 24–32pt | Silver Gray |
-| Body / Bullets | Space Grotesk | Regular | 18–22pt | Silver Gray |
+| Slide Title | Noto Sans | Bold | 40–56pt | Pure White |
+| Slide Subtitle | Noto Sans | SemiBold | 24–32pt | Silver Gray |
+| Body / Bullets | Noto Sans | Regular | 18–22pt | Silver Gray |
 | Tagline / Callout | Archivo Black | Black | 28–40pt | Action Amber |
-| Caption / Source | Space Grotesk | Regular | 10–12pt | Silver Gray |
+| Caption / Source | Noto Sans | Regular | 10–12pt | Silver Gray |
 
 ---
 
@@ -231,10 +231,10 @@ font-family: 'Archivo Black', sans-serif;
 
 | Medium | Heading and label font | Body font | Implementation rule |
 |---|---|---|---|
-| **Website and web application** | Space Grotesk, 700 | Plus Jakarta Sans, 400–600 | Load both families once in the site’s global stylesheet or document head. Never load a competing font inside one component. |
-| **Print-ready documents and editable collateral** | Space Grotesk, 700 | Space Grotesk, 400–500 | Embed or package the typeface before final export. Use Archivo Black only for the approved “Become Future Ready” tagline. |
+| **Website and web application** | Noto Sans, 700 (600 for secondary headings) | Noto Sans, 400 | Load the Noto Sans family (400, 600, 700) once in the site’s global stylesheet or document head. Never load a competing font inside one component. |
+| **Print-ready documents and editable collateral** | Noto Sans, 700 (600 for secondary headings) | Noto Sans, 400 | Embed or package the typeface before final export. Use Archivo Black only for the approved “Become Future Ready” tagline. |
 | **Existing HTML workshop slide suites** | Arial, Helvetica, sans-serif | Arial, Helvetica, sans-serif | Preserve the established system-font baseline until the entire suite is deliberately migrated and visually approved. Do not use per-slide Google Font imports. |
-| **New presentation suite, only after approved migration** | Space Grotesk, 700 | Space Grotesk, 400–500 | Add one shared, verified font-loading method before editing any slide pages. Do not mix this profile with the existing system-font suite. |
+| **New presentation suite, only after approved migration** | Noto Sans, 700 (600 for secondary headings) | Noto Sans, 400 | Add one shared, verified font-loading method before editing any slide pages. Do not mix this profile with the existing system-font suite. |
 
 **Owner location.** This file, `AITA-Branding/BRAND_GUIDE.md`, is the repository-level source of truth. The operational instructions in the `aita-branding` skill must mirror this table. Update both in the same change whenever a typography decision is approved.
 
@@ -310,8 +310,8 @@ Soft radial glows and subtle particle effects suggest energy, data flow, and act
 
 - Slide background: Deep Navy `#0A0C1C`
 - Title slides: Use primary logo with clear space
-- Headline text: Pure White, Space Grotesk Bold
-- Body text: Silver Gray, Space Grotesk Regular
+- Headline text: Pure White, Noto Sans Bold
+- Body text: Silver Gray, Noto Sans Regular
 - Accent / callout text: Action Amber, Archivo Black
 
 ### Social Media
@@ -356,7 +356,7 @@ Full specifications, print placement details, artwork files, and the manufacture
 | **Primary Brand Colour** | Brand Indigo `#6366F1` |
 | **Accent Colour** | Action Amber `#F59E0B` |
 | **Badge Gradient** | `#6366F1` → `#8B5CF6` at 135° |
-| **Primary Font** | Space Grotesk (Bold / Medium / Regular) |
+| **Primary Font** | Noto Sans (Bold / SemiBold / Regular) |
 | **Accent Font** | Archivo Black (tagline only) |
 | **Badge Casing** | A-i-T-A (lowercase i is mandatory) |
 | **Sparkle** | 4-point star above the "i" in wordmark |
